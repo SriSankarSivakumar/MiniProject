@@ -1,0 +1,405 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: rgb(168, 168, 170);
+    background-image: url("../images/trackadmin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    height: 60px;
+    background-color: #b0c1d5;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 0pc 10px;
+}
+#grow{
+    flex-grow: 1;
+    text-align: center;
+}
+header>button{
+    border-style: outset;
+    font-size: 18px;
+    padding: 10px;
+    color: #212529;
+    background-color: transparent;
+}
+#signoutbtn{
+    border-style: none;
+}
+#addTask{
+    border-style: none;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+table{
+    width: 80vw;
+    text-align: left;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px #e4e3e3 solid;
+    height: 65px;
+    vertical-align: top;
+}
+#tableHeadings{
+    vertical-align: middle;
+}
+.issuedatehead{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #000000;
+}
+.updatedatehead{
+    width: 10%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #000000;
+}
+.taskIdhead{
+    width: 8%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #000000;
+}
+.titlehead{
+    width: 10%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #000000;
+    
+}
+.deschead{
+    width: 16%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #000000;
+}
+.asshead{
+    width: 17%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #000000;
+}
+.commentshead{
+    width: 10%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #000000;
+
+
+}
+.dropdownstatushead{
+    width: 16%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #000000;
+ 
+}
+.edithead{
+    width: 29%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #000000;
+}
+.taskId{
+    width: 8%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+.issuedate{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+.updatedate{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+.tasktitle{
+    width: 9%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+.taskdesc{
+    width: 15%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+.usertaskdesc{
+    width: 17%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+.assto{
+    width: 21%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+.comments{
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16.5px;
+
+}
+.dropdownstatus{
+    width: 17%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16.5px;
+ 
+}
+.crudbuttons{
+    width: 30%;
+}
+.edit{
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+.useredithead{
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+
+td, th{
+    padding: 8px;
+}
+th{ 
+    background-color: #6a80c9;
+}
+tr:nth-child(even){
+    background-color: #deeef5;
+}
+tr:nth-child(odd){
+    background-color: #b9b9b9;
+}
+td>button{
+    
+    height: 40px;
+    border-collapse: separate;
+    z-index: 2;
+}
+/* .edit{
+    width: 50%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-style: none;
+    background-color: #0dcaf0;
+} */
+.update{
+    width: 100%;
+    display: inline;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-style: none;
+    background-color: #5ea196;
+}
+.update:hover{
+    cursor: pointer;
+}
+.userupdate{
+    width: 60%;
+    display: inline;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-style: none;
+    background-color: #5ea196;
+    position: relative;
+    top: 4px;
+    left: 28px;
+}
+.userupdate:hover{
+    cursor: pointer;
+}
+.delete{
+    width: 100%;
+    margin-top: 3px;
+    display: inline;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-style: none;
+    background-color: #da4f25;
+}
+.delete:hover{
+    cursor: pointer;
+}
+.btns{
+    display: inline;
+}
+.dropdown{
+    width: 68%;
+    height: 40px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-style: none;
+    background-color: #80b6c5;
+    text-align: center;
+    font-weight: 600;
+}
+.assignydropdown{
+    width: 60%;
+    height: 40px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-style: none;
+    background-color: rgb(90, 125, 192);
+    text-align: center;
+    font-weight: 600;
+}
+
+#addTaskForm{
+    display: flex;
+    flex-direction: column;
+}
+#addTaskForm> input, #addTaskForm>select{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    height: 40px;
+}
+#addTaskForm>button{
+    margin: 15px 0px;
+    height: 40px;
+}
+.close{
+    background-color: white;
+    border-style: none;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+#searchBar{
+    border: 1px solid black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 4px;
+    width: 50%;
+    visibility: hidden;
+    border-right-style: none;
+}
+#searchIcon{
+    border: 1px solid black;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 8px;
+    width: 40px;
+    visibility: hidden;
+    border-left-style: none;
+}
+#match{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5%;
+
+}
+p{
+   margin-left: 21%;
+   font-size: large;
+   font-weight: bold;
+   font-family: cursive;
+}
+#headername{
+    margin-left: 5%;
+    margin-top: auto;
+   font-size: large;
+   font-weight: bold;
+   font-family: cursive;
+}
+#signout{
+    text-decoration: none;
+    color: black;
+  }
+  #signout:hover{
+    cursor: pointer;
+}
+#statusfilter{
+    border-radius: 6px;
+    padding: 3px;
+}
+label{
+    font-weight: bolder;
+}
+.userdropdown{
+    width: 60%;
+    height: 40px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-style: none;
+    background-color: #44bbb4;
+    text-align: center;
+    font-weight: 600;
+}
+.userinput-field{
+    padding: 9px;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-color: #D1D5DB;
+    width: 80%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #111827;
+    background-color: #F9FAFB;
+    display: inline;
+    text-align: center;
+    position: relative;
+    left: 27px;
+    top: 3px;
+
+}
+.usersearchspan{
+    margin-left: 2px;
+}
+.searchinputfield{
+    display: block; 
+  padding: 0.5rem; 
+  border-radius: 0.5rem; 
+  border-width: 1px; 
+  border-color: #D1D5DB; 
+  width: 95%; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  color: #111827; 
+  background-color: #F9FAFB; 
+  display: inline;
+}

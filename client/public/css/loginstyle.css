@@ -1,0 +1,131 @@
+body{
+  margin: 0;
+  border: 0;
+}
+section{
+  background-image: url("../images/remote-tracking-system.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.login-outer {
+  display: flex; 
+  padding-top: 0;
+  padding-bottom: 0; 
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; 
+  padding-top: 2rem;
+  padding-bottom: 2rem; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+.login-inner {
+  border-radius: 0.5rem; 
+  width: 100%; 
+  max-width: 28rem; 
+  background-color: #e7e7e7; 
+ 
+}
+
+.title {
+  font-size: 1.25rem;
+  line-height: 1.75rem; 
+  font-weight: 700; 
+  color: #111827; 
+}
+
+.label {
+  display: block; 
+  margin-bottom: 0.5rem; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  font-weight: 500; 
+  color: #111827; 
+}
+
+.input-field {
+  display: block; 
+  padding: 0.5rem; 
+  border-radius: 0.5rem; 
+  border-width: 1px; 
+  border-color: #D1D5DB; 
+  width: 75%; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  color: #111827; 
+  background-color: #F9FAFB; 
+  display: inline;
+}
+
+.button1 {
+  color: #ffffff; 
+  background-color: #a5a2a2; 
+  margin-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem; 
+  padding-left: 0.75rem;
+  padding-right: 0.75rem; 
+  border-radius: 0.25rem; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  text-align: center;
+
+}
+.button2 {
+  color: #ffffff; 
+  background-color: #1550ce;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem; 
+  padding-left: 0.75rem;
+  padding-right: 0.75rem; 
+  border-radius: 0.25rem; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  text-align: center;
+}
+.para{
+  opacity: 0.4;
+  font-size: small;
+}
+.remember{
+  margin-left: 0.75rem; 
+  font-size: 0.875rem; 
+  line-height: 1.25rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#registerbutton{
+  position: absolute;
+  top: 30.5%;
+  right: 35.5%;
+  color: black;
+}
+#registerbutton:hover{
+  cursor: pointer;
+  color: white;
+}
+#adminbutton{
+  position: absolute;
+  top: 30.5%;
+  right: 43%;
+  color: black;
+}
+#adminbutton:hover{
+  cursor: pointer;
+  color: white;
+}
+#siginbutton:hover{
+  cursor: pointer;
+  color: black;
+}
+a:hover{
+  color: black;
+}
+#finalregisterbutton:hover{
+  cursor: pointer;
+  color: black;
+}

@@ -1,0 +1,65 @@
+<html>
+  <head>
+
+    <title>Login Page</title>
+    
+    <title>Tracking Application Tasks</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/loginstyle.css">
+</head>
+<body>
+  <!-- <div id="adminloginpage">
+
+  </div> -->
+  <div id="registerpage" >
+
+  </div>
+  <section id ="loginpage" >
+    <div class="login-outer">
+      <div class="login-inner">
+        <div style="padding: 2rem; margin-top: 1rem;">
+          <h1 class="fa fa-lock" aria-hidden="true" class="title" >&nbsp;LOGIN</h1><hr>
+          <!-- <button type="button" id="adminbutton" class="button1" onclick="admin()">Admin Login</button> -->
+          <button type="button" id="registerbutton" class="button1" onclick="register()">Register</button>
+          <form>
+            <div style="margin-top: 1.5rem;">
+              <label for="email" class="label">Email Address</label>
+              <i class="fa fa-envelope"></i>
+              <input  type="email" name="email" id="email" class="input-field" placeholder="Enter Email" required><br>
+            </div>
+            <div style="margin-top: 1.5rem;">
+              <label for="password" class="label">Password</label>
+              <i class="fa fa-unlock" aria-hidden="true"></i>
+              <input  type="password" name="password" id="password" placeholder="Password" class="input-field" required>
+            </div>
+            <div style="margin-top: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+              <div style="display: flex; align-items: flex-start;">
+
+
+                
+              </div>
+            
+            </div>
+            <hr>
+            <div style="margin-top: 1.5rem; text-align: right;">
+              <button id="cancelbutton" class="button1"><a href="index.html">Cancel</a></button>
+              <button type="button" id="siginbutton" class="button2" onclick='checkUserCredential()'>Sign in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <div id="adminPage">
+    
+  </div> -->
+  <div id="userPage">
+    
+  </div>
+  <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  
+</body>
+</html>
